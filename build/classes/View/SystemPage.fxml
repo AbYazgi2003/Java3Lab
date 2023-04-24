@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SystemPageController">
+   <children>
+      <Label layoutX="64.0" layoutY="44.0" text="Currency Conversion System " />
+      <Button fx:id="LogOutButton" layoutX="488.0" layoutY="50.0" mnemonicParsing="false" onAction="#logoutAction" styleClass="loginButton" text="logout" />
+      <Button fx:id="convertButton" layoutX="268.0" layoutY="327.0" mnemonicParsing="false" onAction="#convertAction" styleClass="convertButton" text="Convert" />
+      <Label layoutX="143.0" layoutY="158.0" text="USD" />
+      <Label layoutX="420.0" layoutY="158.0" text="NIS" />
+      <Label layoutX="275.0" layoutY="217.0" text="TO" />
+      <TextField fx:id="dollerTextFiled" layoutX="67.0" layoutY="216.0" prefHeight="31.0" prefWidth="175.0" />
+      <TextField fx:id="NisTextFiled" layoutX="350.0" layoutY="216.0" prefHeight="31.0" prefWidth="175.0" />
+   </children>
+</AnchorPane>

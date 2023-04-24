@@ -1,0 +1,22 @@
+.label{
+    -fx-font-weight: bold;
+    -fx-text-fill: #04024e;
+    -fx-font-size: 20px;
+}
+
+.convertButton{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+    -fx-background-color: #04024e;
+    -fx-border-color: #04024e;
+}
+
+.loginButton{
+    -fx-border-color: orange;
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
